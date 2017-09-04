@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orientalfinance.eastcloud.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#20000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="switch"/>
+
+            <EditText
+                android:id="@+id/edt_Switch"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:hint="Switch"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Query"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="input"/>
+
+            <EditText
+                android:id="@+id/edt_Input"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:hint="Input"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_HotKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hotkey"/>
+
+        <Button
+            android:id="@+id/btn_Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="refresh"/>
+
+        <Button
+            android:id="@+id/btn_Msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"/>
+
+        <Button
+            android:id="@+id/btn_Virtualkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="virtualkey"/>
+
+        <Button
+            android:id="@+id/btn_vod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vod"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
